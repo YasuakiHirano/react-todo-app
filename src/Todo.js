@@ -1,5 +1,5 @@
 import './Todo.css'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 export const Todo = () => {
   const [todoText, setTodoText] = useState('')
@@ -71,3 +71,5 @@ export const Todo = () => {
     </div>
   )
 }
+
+export default Todo
